@@ -4,6 +4,9 @@ $(function () {
     var swiper = new Swiper('.swiper-container', {
         speed:2000,
         effect:'fade',
+        fadeEffect: {
+            crossFade: false
+        },
         pagination: {
           el: '.swiper-pagination',
         },

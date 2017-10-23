@@ -115,7 +115,8 @@ table thead {
 .swiper-slide{
     text-align: center;
     padding-bottom: 30px;
-    .fname{font-size:18px;color:#fff;margin-top:15px}
+
+    .fname{font-size:18px;color:#fff;margin-top:15px;background: #121212;display: inline-block}
 }
 
 @media screen and (max-width:600px) {
