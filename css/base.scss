@@ -14,6 +14,9 @@ body {
     background:$color url(../images/bg.jpg) no-repeat top center fixed;
     background-size:100% auto;
     font-size: 15px;
+    @media screen and (orientation: portrait){
+        background-size:auto 100%;
+    }
 }
 .wrapper {margin-top: 170px;}
 table tbody,
@@ -91,7 +94,7 @@ table thead {
         margin-top: 3px;
         .mdi>span {font-size: 0}
     }
-    .mdi-menu { font-size: 0 }
+    // .mdi-menu { font-size: 0 }
     .mdi:before { font-size: 20px; }
     .menu>li>a { padding: .7rem 0.5rem; }
     .menu>.bad_item { position: absolute; width: 100%; left: 15px; top: 59px; }
