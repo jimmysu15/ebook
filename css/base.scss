@@ -220,6 +220,7 @@ input.gsc-search-button-v2 {
 .gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl{color:#333 !important}
 .gsc-result .gs-title{height:auto !important}
 .gs-result:hover{opacity: .8}
+.gsc-search-box-tools .gsc-search-box .gsc-input{text-indent: 0 !important}
 
 
 @media screen and (min-width:500px) {
@@ -252,18 +253,61 @@ input.gsc-search-button-v2 {
 /*.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult{border:0 !important;background: none !important}*/
 
 @media screen and (max-width:500px) {
+    // .cse .gsc-control-cse,
+    // .gsc-control-cse {
+    //     padding: 0 !important
+    // }
+    // .gsc-search-button {
+    //     width: 0 !important;
+    //     padding: 5px !important;
+    // }
+    // .cse .gsc-search-button input.gsc-search-button-v2,
+    // input.gsc-search-button-v2 {
+    //     margin-left: -50px !important;
+    // }
+    .menu-text h2 {
+        display: none;
+    }
+    .top-bar-right .mdi>span {
+        font-size: 0
+    }
+    .top-bar-right {
+        margin-top: 3px;
+    }
+    .mdi-menu {
+        font-size: 0
+    }
+    .mdi:before {
+        font-size: 20px;
+    }
+    .menu>li>a {
+        padding: .7rem 0.5rem;
+    }
+    .menu>.bad_item {
+        position: absolute;
+        width: 100%;
+        left: 15px;
+        top: 59px;
+    }
+    .free_title>small{display: block;line-height: 200%;}
     .cse .gsc-control-cse,
     .gsc-control-cse {
         padding: 0 !important
     }
     .gsc-search-button {
-        width: 0 !important;
+        width: 30px !important;
         padding: 5px !important;
     }
+    button.gsc-search-button{height: 32px;}
+    table.gsc-search-box td{vertical-align: top !important}
     .cse .gsc-search-button input.gsc-search-button-v2,
     input.gsc-search-button-v2 {
         margin-left: -50px !important;
     }
+    .gsc-search-box-tools .gsc-search-box .gsc-input{padding: 0 !important}
+    .menu>.switch_link>a{font-size:0;margin-top: 3px;}
+    input.gsc-input{height:1em !important;text-indent: 0 !important;}
+    td.gsc-search-button{padding: 0 !important}
 }
 
 
